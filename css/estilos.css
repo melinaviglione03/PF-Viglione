@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Nunito:wght@600&family=Outfit&display=swap');
+
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Outfit', sans-serif;*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #3BBCDC;
+    padding: 15px;
+}
+
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.nav-link{
+    color:#fff !important;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-item:hover{
+    background-color: #0eaed6;
+    border-radius: 5px;
+    transition: all 0.9s;
+}
+
+.navbar-brand{
+    width: 10%;
+    height: 10%;
+}
+
+main{
+    height: calc(100vh - 80px);
+    background-color: #222;
+    background-image: url(../img/fondomain01.jpg);
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    height: auto;
+    width: 65%;
+    background-color: rgba(252, 252, 252, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #222;
+}
+
+h1{
+    color:#3BBCDC;
+    margin-bottom: 20px;
+    /*text-shadow: 1px 1px 0px #000;*/
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+
+.call p{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 19px;
+}
+
+.nleft{
+    height: 400px;
+    background-image: url(../img/intro2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.nright{
+    padding-top: 40px;
+    text-align: center;
+}
+
+h2{
+    color: #76b5c5;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nright p{
+    font-size: 17px;
+    font-family: 'Outfit', sans-serif;
+    padding: 11px;
+}
+
+h3{
+    text-align: center;
+    background-color: #d6d6d6;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+section{
+    height: 700px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.card{
+    width: 30%;
+    height: 400px;
+    background-color: #fff;
+    border: 3px solid #71bfd3;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card-img1{
+    height:200px;
+    width:100%;
+    background-image: url(../img/card1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card-img2{
+    height:200px;
+    width:100%;
+    background-image: url(../img/card2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card-img3{
+    height:200px;
+    width:100%;
+    background-image: url(../img/card3.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card h4{
+    color:#26b6da;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+}
+
+.card p{
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    padding: 10px;
+}
+
+.nleft2{
+    height: 400px;
+    background-image: url(../img/vale.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nright2{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.nright2 h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nright2 p{
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    background-color: #76b5c5;
+    padding: 20px;
+}
+
+.galeria{
+    /*height: 700px;*/
+    width: 100%;
+    background-color: #a6c0c7;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    padding: 20px;
+    grid-gap: 15px;
+}
+
+.item{
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #222;
+    transition: all 0.9s;
+    box-shadow: 0 0 5px #2226;
+}
+
+.item:hover{
+    transform: scale(0.9);
+}
+
+.item1{
+    background-image: url(../img/essen01.jpg);
+}
+
+.item2{
+    background-image: url(../img/essen02.jpg);
+}
+
+.item3{
+    background-image: url(../img/essen03.jpeg);
+}
+
+.item4{
+    background-image: url(../img/essen04.webp);
+}
+
+.item5{
+    background-image: url(../img/essen05.webp);
+}
+
+.item6{
+    background-image: url(../img/essen06.webp);
+}
+
+.item7{
+    background-image: url(../img/essen07.jpg);
+}
+
+.item8{
+    background-image: url(../img/essen08.webp);
+}
+
+.cardrec{
+    width: 35%;
+    height: 280px;
+    background-color: #fff;
+    border: 3px solid #71bfd3;
+    text-align: center;
+    border-radius: 20px;
+    transition: height 2.7s;
+}
+
+.card-img4{
+    height:200px;
+    width:100%;
+    background-image: url(../img/receta1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card-img5{
+    height:200px;
+    width:100%;
+    background-image: url(../img/receta2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card-img6{
+    height:200px;
+    width:100%;
+    background-image: url(../img/receta3.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card-img7{
+    height:200px;
+    width:100%;
+    background-image: url(../img/receta4.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card-img8{
+    height:200px;
+    width:100%;
+    background-image: url(../img/receta5.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card-img9{
+    height:200px;
+    width:100%;
+    background-image: url(../img/receta6.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.cardrec h7{
+    color:#0daad1;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-fluid contacto{
+    background-color: #f2f2f2;
+}
+
+.contacto {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container form{
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+  }
+
+h6{
+    text-align: center;
+    color: #71bfd3;
+    font-size: 30px;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=submit]{
+    background-color: #3ca8c4;
+    color: white;
+    padding: 10px 19px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #5fb1c5;
+}
+
+.footer{
+    background-color: #3BBCDC;
+    color: #000;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    padding: 5px;
+}
+
+.footer p{
+    font-size: 14px;
+}
+
+.footer a{
+    color: #000;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.footer a:hover{
+    color:#929292;
+}
+
+
+@media only screen and (min-width:480px){
+    .section{
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .item2{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .item3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .item4{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
+    .item5{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .item6{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .item7{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .item8{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+}
